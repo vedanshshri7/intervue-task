@@ -5,22 +5,24 @@
 This is a real-time polling application where teachers can create live polls and students can respond instantly. The frontend is developed using React with Vite as the build tool, and Socket.IO facilitates real-time communication between the server and connected clients.
 
 ## Features
-- **Teacher Features**:
-  - Create polls with options and set a timer for voting.
-  - View real-time results as students vote.
-  - View poll history.
-  - Kick students out of the room.
 
-- **Student Features**:
-  - Join a poll room created by a teacher.
-  - Vote in real-time on polls.
-  - Redirect to a "kicked out" page if removed by the teacher.
+- **For Teachers**:
+  - Launch polls with multiple options and a countdown timer.
+  - Monitor live voting results as they come in.
+  - Access a history of previously created polls.
+  - Remove students from the poll room when necessary.
 
-## Tech Stack
-- **React** (with Vite for fast development)
-- **Socket.IO** (for real-time communication)
-- **Bootstrap** (for styling)
-- **Session Storage** (for session management)
+- **For Students**:
+  - Enter a poll session using a room code shared by the teacher.
+  - Submit votes in real time as polls appear.
+  - Automatically redirected to a "kicked out" page if removed by the teacher.
+
+## 🛠 Tech Stack
+
+- **React** (leveraging Vite for blazing-fast builds)
+- **Socket.IO** (enabling real-time bidirectional communication)
+- **Bootstrap** (used for responsive and clean UI design)
+- **Session Storage** (to manage session-based user state)
 
 ---
 
