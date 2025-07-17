@@ -1,5 +1,5 @@
 
-# Polling App - Frontend
+# STudent/Teacher - Task
 
 ## Overview
 This project is a real-time polling system that allows teachers to create live polls and students to participate in them. The frontend is built with **React** (using Vite as the build tool). **Socket.IO** is used for real-time communication between the server and clients.
@@ -49,9 +49,3 @@ Make sure you have the following installed:
    npm run dev
    ```
 
-## Running the Application
-
-1. The frontend will be available at:
-   ```
-   http://localhost:5173/
-   ```
