@@ -8,7 +8,7 @@ let apiUrl =
     ? import.meta.env.VITE_API_BASE_URL
     : "http://localhost:3000";
 const LoginPage = () => {
-  const [selectedRole, setSelectedRole] = useState(null);
+  const [selectedRole, setSelectedRole] =  useState(null);
   const navigate = useNavigate();
   const selectRole = (role) => {
     setSelectedRole(role);

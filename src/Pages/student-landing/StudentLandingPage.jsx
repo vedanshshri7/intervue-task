@@ -12,7 +12,7 @@ const StudentLandingPage = () => {
 
     if (name.trim()) {
       try {
-        sessionStorage.setItem("username", name);
+        sessionStorage.setItem("username",  name);
         navigate("/poll-question");
       } catch (error) {
         console.error("Error logging in student:", error);

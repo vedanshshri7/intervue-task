@@ -16,7 +16,7 @@ const StudentPollPage = () => {
   const [votes, setVotes] = useState({});
   const [selectedOption, setSelectedOption] = useState(null);
   const [submitted, setSubmitted] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(0);
+  const [timeLeft, setTimeLeft] =  useState(0);
   const [pollQuestion, setPollQuestion] = useState("");
   const [pollOptions, setPollOptions] = useState([]);
   const [pollId, setPollId] = useState("");
