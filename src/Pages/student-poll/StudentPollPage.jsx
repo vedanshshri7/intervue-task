@@ -24,7 +24,7 @@ const StudentPollPage = () => {
   const timerRef = useRef(null);
   const navigate = useNavigate();
 
-  const totalVotes = Object.values(votes).reduce((a, b) => a + b, 0);
+  const totalVotes = Object.values(votes).reduce((a, b) => a+b, 0);
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);

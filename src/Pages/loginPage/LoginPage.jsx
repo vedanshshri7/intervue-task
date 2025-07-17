@@ -19,7 +19,7 @@ const LoginPage = () => {
       let teacherlogin = await axios.post(`${apiUrl}/teacher-login`);
       sessionStorage.setItem("username", teacherlogin.data.username);
       navigate("/teacher-home-page");
-    } else if (selectedRole === "student") {
+    } else if (  selectedRole==="student") {
       navigate("/student-home-page");
     } else {
       alert("Please select a role.");
@@ -30,7 +30,7 @@ const LoginPage = () => {
     <div className="d-flex justify-content-center align-items-center vh-100">
       <div className="poll-container text-center">
         <button className="btn btn-sm intervue-btn mb-5">
-          <img src={stars} className="px-1" alt="" />
+          <img src={stars } className="px-1" alt="" />
           Intervue Poll
         </button>
         <h3 className="poll-title">
