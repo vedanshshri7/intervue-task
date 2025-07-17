@@ -38,7 +38,7 @@ const LoginPage = () => {
         </h3>
         <p className="poll-description">
           Please select the role that best describes you to begin using the live
-          polling system
+          polling system.
         </p>
 
         <div className="d-flex justify-content-around mb-4">
@@ -62,7 +62,7 @@ const LoginPage = () => {
         </div>
 
         <button className="btn continue-btn" onClick={continueToPoll}>
-          Continue
+          Continue 
         </button>
       </div>
     </div>
